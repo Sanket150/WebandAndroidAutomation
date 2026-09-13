@@ -25,7 +25,7 @@ public class CartTest extends BaseWebTest {
         // Verify product
         Assert.assertEquals(
                 pages.get().cartPageReturn().getBackpackName(),
-                "auce Labs Backpack"
+                "Sauce Labs Backpack"
         );
     }
 
